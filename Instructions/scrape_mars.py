@@ -120,7 +120,15 @@ def scrape():
         "mars_weather": mars_weather,
         "featured_image_url": featured_image_url,
         "mars_facts": mars_facts,
-        "hemisphere_image_urls": hemisphere_image_urls
+        "hemisphere_image_urls": hemisphere_image_urls,
+        "cereberus_title": cereberus_title,
+        "cerebrus_img_url": cerebrus_img_url,
+        "schiaparelli_title": schiaparelli_title,
+        "schiaparelli_img_url": schiaparelli_img_url,
+        "syrtis_title": syrtis_title,
+        "syrtis_img_url": syrtis_img_url,
+        "valles_title": valles_title,
+        "valles_img_url": valles_img_url
     }
     browser.quit()
     return mars_data
